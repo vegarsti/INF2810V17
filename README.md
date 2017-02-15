@@ -1,12 +1,11 @@
-# Gruppetimer i INF2810 (gruppe 3) våren 2017
+## Gruppetimer i INF2810 (gruppe 3) våren 2017
 
 **Onsdager 10.15-12.00 i Sed**
 
 Med rapport og kodesnutter fra hver time.
 
-## Oversikt
 
-| Timenummer    | Dato          | Uke           |
+| Time          | Dato          | Uke           |
 | ------------- |:-------------:|--------------:|
 | 1             | 25. januar    | 4             |
 | 2             | 1. februar    | 5             |

@@ -11,4 +11,4 @@ Med sammendrag og kodesnutter fra hver time.
 | 3         | 8. februar    | 6     | Link
 | 4         | 15. februar   | 7     | Link
 | 5         | 22. februar   | 8     | Link
-| 6         | 1. mars       | 9     | [Link](06/README.md)
+| 6         | 1. mars       | 9     | [Link](06)

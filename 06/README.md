@@ -100,24 +100,4 @@ En annen kul ting: Den innebygde prosedyren `list` har en utrolig kul og lett im
 ####Oppgave####
 Prøv å lag en funksjon `my-max`, som er en implementasjon av den innebygde `max`, som er en variadisk prosedyre! Da kan det også være verdt å se på den innebygde `max`, og om den for eksempel takler null argumenter. +, for eksempel, takler null argumenter: Det blir 0!
 
-**Løsning**:
-
-```scheme
-
-
-
-
-
-
-
-
-(define my-max
-  (lambda (x . args)
-    (define (recurse list max-so-far)
-      (cond ((null? list) max-so-far)
-            ((> (car list) max-so-far)
-             (recurse (cdr list) (car list)))
-            (else ; max-so-far biggest
-             (recurse (cdr list) max-so-far))))
-    (recurse args x)))
-```
+###[Løsning](max.scm)

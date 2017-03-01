@@ -4,9 +4,10 @@
 
 Nå er oblig 2a ute. Info
 
+- Foretrekker at dere jobber i grupper på to eller tre! Større læringsutbytte, og det er gøy!
 - Hvordan lage gruppe i Devilry?
-    - **Student > Obligen > Project Group > Invite Students**
-- OK å jobbe aleine
+    - **Gå inn på obligen > Project Group > Invite Students**
+- OK å jobbe alene
 - OK å bytte grupper (f. eks fra gruppe til aleine) mellom oblig 2 og 3, men ikke mellom 2a og 2b.
 
 Vi så på prekoden til oblig 2a (`huffman.scm`).
@@ -19,7 +20,7 @@ Hvordan laste prekoden i en annen fil?
 (load “huffman.scm”)
 ```
 
-Lag et tre av to løvnoder:
+Lag et tre ut av to løvnoder:
 
 ```scheme
 (define leaf1 (make-leaf 'a 10))
@@ -38,7 +39,7 @@ Det er tilsvarende for de andre elementene:
 (weight tree)
 ```
 
-Vi har også et predikat `leaf?` som sjekker om et tre er en løvnode. Dette er jo da typisk grunntilfellet i rekursjonen. Også på en løvnode kan vi hente ut symbolene og vekten med de tilhørende aksessorene vi så over.
+Vi har også et predikat `leaf?` som sjekker om et tre er en løvnode. Dette er jo da typisk grunntilfellet i rekursjonen. Også på en løvnode kan vi hente ut symbolene og vekten med de tilhørende _aksessorene_ vi så over.
 
 Vi har også prosedyren `decode`, som dekoder en Huffman-kode, gitt koden og det tilsvarende treet:
 
@@ -55,7 +56,7 @@ Vi har også prosedyren `decode`, som dekoder en Huffman-kode, gitt koden og det
 Håper det hjelper dere å komme litt i gang!
 
 
-### Variadiske prosedyrer
+### Variadiske prosedyrer (prikknotasjon)
 
 Nå tenkte jeg å plukke opp en greie om hvordan definere prosedyrer med variabel lengde argumenter: Variadiske prosedyrer
 
@@ -75,7 +76,7 @@ Fra forelesning:
 
 Parametrene etter prikken er valgfrie, og samles i listen `args`.
 
-Med `lambda`: (Merk ingen parentes rundt argument
+Med `lambda`: (Merk ingen parentes rundt parametrene.)
 
 ```scheme
 (define sum2
@@ -88,11 +89,11 @@ Med `lambda`: (Merk ingen parentes rundt argument
     (recurse args)))
 ```
 
-Hvis vi skal ha flere må vi her si `(x . args)`, mens i den uten lambda må vi si `(sum x . args)`
+Hvis vi skal ha flere må vi her si `(x . args)`, mens i den uten `lambda` må vi si `(sum x . args)`
 
 En annen kul ting: Den innebygde prosedyren `list` har en utrolig kul og lett implementasjon som benytter seg av dette:
 
-```
+```scheme
 (define my-list
   (lambda x x))
 ```

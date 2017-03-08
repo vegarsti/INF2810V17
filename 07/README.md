@@ -31,6 +31,30 @@ y
 
 Her er `y` fortsatt lik! Men det er fordi verdien i seg selv endres ikke! Idet jeg sa at `y` var lista med `x` og `1`, så evaluerte Scheme "okay, hva er `x`? jo, det er `42` -- så da putter jeg det inn i lista"
 
+Et eksempel som viser forskjellen mellom `set!` og `define`:
+
+```scheme
+(define x 2)
+
+(define (foo)
+  (define x 4)
+  x)
+
+(define (bar)
+  (set! x 4)
+  x)
+
+x      ; 2
+
+(foo)  ; 4
+x      ; 2
+
+(bar)  ; 4
+x      ; 4
+```
+
+Det som skjer her er at i `foo` så binder vi en variabel `x` til verdien 4, men kun _i skopet til `foo`_. Altså er ikke `x` endret utenfor skopet. Men det skjer derimot i `bar`: Den finner skopet til `x`, som er globalt, og endrer bindingen til `x` fra 2 til 4. Dermed er `x` også endret globalt.
+
 ## Opplegg: Bankkontoobjekter
 La oss se på et eksempel med bankkonto. Det er det samme eksemplet som vi så på i forelesning
 
@@ -76,7 +100,9 @@ Først en liten forbedring:
 
 `cond` gjør det lettere, vi slipper `begin`
 
-`(withdraw 100) ; => 900`
+```scheme
+(withdraw 100) ; => 900
+```
 
 Men vi kan innkapsle saldo sånn at vi ikke har tilgang på den utenfor, ved hjelp av let.
 
@@ -127,7 +153,7 @@ Lag en prosedyre `make-accumulator` som tar en startsum og skal deretter kunne k
 ### Utfordring
 Løs `member?` i obligen med høyereordens prosedyrer Hint: Den kan løses med et kall til enten `reduce`, `map` eller `filter`.
 
-Ukesoppgaver i tillegg:
+Ukesoppgaver i tillegg (fra uke 10 [her](http://folk.uio.no/esbenss/inf2810/gruppelaererenes-side.html)):
 
 - 3.2
 - 3.3

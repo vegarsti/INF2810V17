@@ -122,6 +122,8 @@ Lag en prosedyre `make-accumulator` som tar en startsum og skal deretter kunne k
 (acc 10)  ; 210
 ```
 
+[Løsning her!](make-accumulator.scm)
+
 ### Utfordring
 Løs `member?` i obligen med høyereordens prosedyrer Hint: Den kan løses med et kall til enten `reduce`, `map` eller `filter`.
 

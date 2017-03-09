@@ -89,6 +89,7 @@ Denne er også lur å huske, og "lett" å huske om man skjønner logikken. Den g
 (filter string? weird-list)
 ```
 
+Til slutt tok vi [denne Kahooten](https://play.kahoot.it/#/?quizId=07fe06f1-d72e-496f-8911-a464f3343ba3).
 
 ###Oppgaver
 - lag `length` ved hjelp av reduce

@@ -9,7 +9,7 @@ Med sammendrag og kodesnutter fra hver time.
 | 1         | 25. januar    | 4     | Link
 | 2         | 1. februar    | 5     | Link
 | 3         | 8. februar    | 6     | Link
-| 4         | 15. februar   | 7     | Link
+| 4         | 15. februar   | 7     | [Link](04)
 | 5         | 22. februar   | 8     | [Link](05)
 | 6         | 1. mars       | 9     | [Link](06)
 | 7         | 8. mars       | 10     | [Link](07)

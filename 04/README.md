@@ -93,3 +93,4 @@ Til slutt tok vi [denne Kahooten](https://play.kahoot.it/#/?quizId=07fe06f1-d72e
 
 ###Oppgaver
 - lag `length` ved hjelp av reduce
+- **Utfordring**: Lag `quicksort`! Se [her](http://folk.uio.no/esbenss/inf2810/gruppelaererenes-side.html#Uke6) for formulering, og [her](quicksort.scm) for (min) løsning.

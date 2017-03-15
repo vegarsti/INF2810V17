@@ -36,7 +36,7 @@ Deretter eksemplet med `make-withdraw`:
 
 ![](img/03.jpg)
 ![](img/04.jpg)
-![](img/05.jpg)
+![](img/05.JPG)
 
 ### Oppgaver
 - Gjør [oppgave 6 fra eksamen 2014]()!

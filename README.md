@@ -13,6 +13,7 @@ Med sammendrag og kodesnutter fra hver time.
 | 5         | 22. februar   | 8     | [Sammendrag](05)
 | 6         | 1. mars       | 9     | [Sammendrag](06)
 | 7         | 8. mars       | 10     | [Sammendrag](07)
+| 8         | 15. mars       | 11     | [Sammendrag](08)
 
 
 ### Ressurser

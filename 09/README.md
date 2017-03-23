@@ -101,7 +101,7 @@ Disse kan man gjøre enten som prosedyrer, eller som lokal tilstand inni `make-q
 (define (queue-length queue)
   (length (pretty-queue queue)))
 
-(print-queue q1)
+(pretty-queue q1)
 
 (define (make-queue2 . queue)
   (if (null? queue)

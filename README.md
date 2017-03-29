@@ -15,7 +15,7 @@ Med sammendrag og kodesnutter fra hver time.
 | 7         | 8. mars       | [Sammendrag](07) | Destruktive operasjoner, innkapsling (lokal tilstand)
 | 8         | 15. mars      | [Sammendrag](08) | Omgivelsesmodellen, innkapsling der
 | 9         | 22. mars      | [Sammendrag](09) | `set-c[a/d]r!`, kø-grensesnitt
-| 10         | 22. mars     | [Sammendrag](10) | Noe memoisering, `apply`
+| 10         | 29. mars     | [Sammendrag](10) | Noe memoisering, `apply`
 
 
 ### Ressurser

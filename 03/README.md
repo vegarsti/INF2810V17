@@ -90,4 +90,4 @@ Bruk `list-copy` som et utgangspunkt.
 ```
 
 
-[Løsninger.](solutions.scm)
+[Løsninger til disse oppgavene.](solutions.scm)

@@ -15,7 +15,7 @@ Nå har vi lært `let`. Det er syntaktisk sukker for et lambda-uttrykk. Når det
 - mens `let` binder parallelt, binder `let*` sekvensielt
 - kortform for flere lets inni hverandre
 
-###Fra `let*` til `let` til `lambda`
+### Fra `let*` til `let` til `lambda`
 Vi starter med
 ```scheme
 (let* ((x 1)
@@ -79,7 +79,7 @@ En eller annen "nested list".
 ```
 
 
-###Ukesoppgaver som anbefales
+### Ukesoppgaver som anbefales
 - 2.28 — `fringe`: lag en flat liste av et tre (i “riktig rekkefølge”) (ble gjort i forelesning, men prøv først selv)
 - 2.30 — `square-tree`
 - 2.31 — `square-tree` (`tree-map`; kan bruke `map` her!) (ditto med denne; ble også gjort i forelesning)

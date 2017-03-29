@@ -16,7 +16,7 @@ Variabler har sin verdi relativ til en gitt omgivelse
 
 **2)** Når et `lambda`-uttrykk evalueres i en gitt omgivelse opprettes en prosedyre. Prosedyren representeres som et «par» med en peker til parameterliste og prosedyrekropp, og en annen peker til omgivelsen der den ble opprettet.
 
-**Regel 3**: Når en prosedyre anvendes (eller kalles), utvides prosedyrens omgivelse med en ny ramme der parametrene bindes til argumentverdiene.
+**3)**: Når en prosedyre anvendes (eller kalles), utvides prosedyrens omgivelse med en ny ramme der parametrene bindes til argumentverdiene.
 
 ### Eksempel 1
 Se på ramme 1 til 4:

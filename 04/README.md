@@ -4,7 +4,7 @@ Vi så litt på “sekvensprosedyrer” i dag, altså `map`, `reduce` og `filter
 
 Først brukte vi noen minutter på å se om vi huska hvordan man definerer `map`. Det anbefales å kunne den, ikke pugge, men hvis du skjønner hvordan den funker, så kommer du til å huske den ganske greit. Da jeg tok eksamen ble jeg i hvert fall nødt til å huske `map`!
 
-###`map`
+### `map`
 
 - Anvender en prosedyre på ethvert element i en liste og returnerer en ny liste med disse transformerte elementene.
 - Man kan også lage `map` for trær, for eksempel (vilkårlig “dype” lister).
@@ -18,7 +18,7 @@ Først brukte vi noen minutter på å se om vi huska hvordan man definerer `map`
 ```
 
 
-###reduce
+### `reduce`
 
 Denne anbefales også å kunne, så vi brukte noen minutter på å se om vi huska definisjonen.
 
@@ -37,7 +37,7 @@ Lister er en rekursiv datastruktur, bygget opp fra grunnverdien, base casen, alt
 
 `reduce` kan brukes til alt mulig rart, for det er en generalisering av rekursive prosesser. Enhver "vanlig" rekursiv operasjon med et grunntilfelle kan omformes til et kall på `reduce`.
 
-###Eksempler
+### Eksempler
 ```scheme
 (define (sum list) (reduce + 0 list))
 (define (my-max list) (reduce max -9000 list)
@@ -65,7 +65,7 @@ Lister er en rekursiv datastruktur, bygget opp fra grunnverdien, base casen, alt
 
 Disse brukes faktisk en del i Java 8 og Javascript: Funksjonell programmering er i vinden!
 
-###`filter`
+### `filter`
 
 Denne er også lur å huske, og "lett" å huske om man skjønner logikken. Den går over en liste og returnerer en ny liste der ethvert element innfrir predikatet.
 
@@ -91,6 +91,6 @@ Denne er også lur å huske, og "lett" å huske om man skjønner logikken. Den g
 
 Til slutt tok vi [denne Kahooten](https://play.kahoot.it/#/?quizId=07fe06f1-d72e-496f-8911-a464f3343ba3).
 
-###Oppgaver
+### Oppgaver
 - lag `length` ved hjelp av reduce
 - **Utfordring**: Lag `quicksort`! Se [her](http://folk.uio.no/esbenss/inf2810/gruppelaererenes-side.html#Uke6) for formulering, og [her](quicksort.scm) for (min) løsning.

@@ -4,17 +4,18 @@
 
 Med sammendrag og kodesnutter fra hver time.
 
-| Time      | Dato          | Uke   | Sammendrag  |
-| --------- |:-------------:|------:|------------:|
-| 1         | 25. januar    | 4     | [Sammendrag](01)
-| 2         | 1. februar    | 5     | [Sammendrag](02)
-| 3         | 8. februar    | 6     | [Sammendrag](03)
-| 4         | 15. februar   | 7     | [Sammendrag](04)
-| 5         | 22. februar   | 8     | [Sammendrag](05)
-| 6         | 1. mars       | 9     | [Sammendrag](06)
-| 7         | 8. mars       | 10     | [Sammendrag](07)
-| 8         | 15. mars       | 11     | [Sammendrag](08)
-| 9         | 22. mars       | 12     | [Sammendrag](09)
+| Time      | Dato          | Sammendrag       |    Temaer   |
+| --------- |:-------------:|-----------------:|-------------|
+| 1         | 25. januar    | [Sammendrag](01) | Basics
+| 2         | 1. februar    | [Sammendrag](02) | Prosedyre/prosess, basics
+| 3         | 8. februar    | [Sammendrag](03) | Par, boks-og-peker
+| 4         | 15. februar   | [Sammendrag](04) | Sekvensprosedyrer (`map`, `reduce`, `filter`)
+| 5         | 22. februar   | [Sammendrag](05) | `let`, trær
+| 6         | 1. mars       | [Sammendrag](06) | Trær, variadiske prosedyrer
+| 7         | 8. mars       | [Sammendrag](07) | Destruktive operasjoner, innkapsling (lokal tilstand)
+| 8         | 15. mars      | [Sammendrag](08) | Omgivelsesmodellen, innkapsling der
+| 9         | 22. mars      | [Sammendrag](09) | `set-c[a/d]r!`, kø-grensesnitt
+| 10         | 22. mars     | [Sammendrag](10) | Noe memoisering, `apply`
 
 
 ### Ressurser

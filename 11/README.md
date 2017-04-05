@@ -1,12 +1,12 @@
 ## Time 11
 
-Vi snakka om forskjellige evalueringsformer og om strømmer. Mye repetisjon av [forelesningen](foils.pdf)
+Vi snakka om forskjellige evalueringsformer og om strømmer. Mye repetisjon av [forelesningen](foils.pdf).
 
 Med strømoperasjoner får vi elegansen ved høyereordens sekvensoperasjoner, minus den potensielle sløsingen av beregning!
 
-Strømmer er late lister. For å få "lathet" må vi endre hvordan ting evalueres i Scheme. Først en liten repetisjon av forskjellige former for evaluering.
+Strømmer er late lister. For å få "lathet" (_laziness_) må vi endre hvordan ting evalueres i Scheme. Først en liten repetisjon av forskjellige former for evaluering.
 
-### Applicative order vs normal-order
+### Applicative order vs normal order
 
 #### Applicative order
 
@@ -15,7 +15,7 @@ Strømmer er late lister. For å få "lathet" må vi endre hvordan ting evaluere
 - Også kjent som call-by-value, strict/eager evaluation
 - Kan tenke på det som at vi starter "innerst" når vi evaluerer
 
-#### Normal-order
+#### Normal order
 
 - Prosedyren kalles med argumentuttrykkene: Disse evalueres først ved behov
 - Også kjent som call-by-name, call-by-need, non-strict/lazy evaluation
@@ -49,7 +49,8 @@ Vi kaller på
 => (+ (* (f 1 2) (f 1 2)) (* (f 2 3) (f 2 3)))
 => (+ (* (+ (* 1 1) (* 2 2)) (+ (* 1 1) (* 2 2)))
       (* (+ (* 2 2) (* 3 3)) (+ (* 2 2) (* 3 3))
-=> osv
+
+osv
 ```
 
 Vi ser at med **normal order** kan vi ende opp med å måtte evaluere ting flere ganger. Så vi kan se nytten av å memoisere her.
@@ -67,7 +68,7 @@ Vi kan tenke på disse som at de er evaluert slik:
 ```scheme
 (define (delay exp)
     (lambda ()
-        exp)))
+        exp))
 (define (force promise)
     (promise))
 ```
@@ -102,7 +103,7 @@ Nå kan vi gjøre
 ```
 
 
-Vi definerer `stream-ref` som gir oss det n'te elementet i strømmen `s`:
+Vi definerer `stream-ref`, som gir oss det n'te elementet i strømmen `s`:
 
 ```scheme
 (define (stream-ref s n)

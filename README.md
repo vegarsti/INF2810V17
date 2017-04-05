@@ -16,6 +16,7 @@ Med sammendrag og kodesnutter fra hver time.
 | 8         | 15. mars      | [Sammendrag](08) | Omgivelsesmodellen, innkapsling der
 | 9         | 22. mars      | [Sammendrag](09) | `set-c[a/d]r!`, kø-grensesnitt
 | 10         | 29. mars     | [Sammendrag](10) | Noe memoisering, `apply`
+| 11         | 5. april     | [Sammendrag](11) | Applicative order vs normal order, strømmer, ekstraoppgave om datastrukturer
 
 
 ### Ressurser

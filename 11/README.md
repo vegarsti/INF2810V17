@@ -165,5 +165,4 @@ Lag en datastruktur som er en ring, som et lykkehjul. Den skal ha operasjoner `t
 
 **OBS**: Pass på at den ikke destruerer `items` som blir sendt inn!
 
-#### Løsningsforslag
-Kommer snart!
+#### [Løsningsforslag her!](ring.scm)

@@ -1,3 +1,8 @@
+;;;
+;;; Kred for denne går til Lars Tveito, tidligere gruppelærer i 2810 :)
+;;;
+
+
 ;; Hjelpeprosedyrer
 
 (define (take l n)

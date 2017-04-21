@@ -1,4 +1,4 @@
-# Detaljert løsningsforslag av 2b
+# Detaljert løsningsforslag av 1b fra Oblig 2b
 
 Først minner vi oss på reglene for tegning av omgivelsesdiagram:
 

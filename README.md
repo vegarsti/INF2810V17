@@ -17,6 +17,8 @@ Med sammendrag og kodesnutter fra hver time.
 | 9         | 22. mars      | [Sammendrag](09) | `set-c[a/d]r!`, kø-grensesnitt
 | 10         | 29. mars     | [Sammendrag](10) | Noe memoisering, `apply`
 | 11         | 5. april     | [Sammendrag](11) | Applicative order vs normal order, strømmer, ekstraoppgave om datastrukturer
+| 12         | 19. april     | [Sammendrag](12) | Omgivelsesdiagram (gjennomgang av 1b fra oblig 2b), eksamensoppgave (rekursjon, strømmer, destruktiv)
+| 13         | 26. april     | Sammendrag | Makroer, oblighjelp (3a)
 
 
 ### Ressurser

@@ -18,7 +18,10 @@ Med sammendrag og kodesnutter fra hver time.
 | 10         | 29. mars     | [Sammendrag](10) | Noe memoisering, `apply`
 | 11         | 5. april     | [Sammendrag](11) | Applicative order vs normal order, strømmer, ekstraoppgave om datastrukturer
 | 12         | 19. april     | [Sammendrag](12) | Omgivelsesdiagram (gjennomgang av 1b fra oblig 2b), eksamensoppgave (rekursjon, strømmer, destruktiv)
-| 13         | 26. april     | Sammendrag | Makroer, oblighjelp (3a)
+| 13         | 26. april     | [Sammendrag](13) | Oblighjelp med 3a
+| 14         | 3. mai     | Sammendrag | Makroer? Hint til oblig?
+| 15         | 10. mai     | Sammendrag | Makroer? Hint til oblig?
+| 16         | 24. mai     | Sammendrag | Avslutning, boller, gamle eksamener
 
 
 ### Ressurser
@@ -26,3 +29,6 @@ Med sammendrag og kodesnutter fra hver time.
 - [Semesterside](http://www.uio.no/studier/emner/matnat/ifi/INF2810/v17/index.html)
 - [Ukesoppgaver (fra SICP, med noen løsningsforslag)](http://folk.uio.no/esbenss/inf2810/gruppelaererenes-side.html)
 - [Større prosjekter fra kurset der SICP ble brukt, fra MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/projects/)
+- [A Scheme Syntax-Rules Primer](http://www.willdonnelly.net/blog/scheme-syntax-rules/) (fin intro!)
+- [JRM's Syntax-rules Primer for the Merely Eccentric [makroer]](http://www.phyast.pitt.edu/~micheles/syntax-rules.pdf)
+- [Macro Tutorial fra University of Utah](https://www.cs.utah.edu/~mflatt/past-courses/cs6520/public_html/s04/macro-tutorial.pdf)

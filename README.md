@@ -19,8 +19,8 @@ Med sammendrag og kodesnutter fra hver time.
 | 11         | 5. april     | [Sammendrag](11) | Applicative order vs normal order, strømmer, ekstraoppgave om datastrukturer
 | 12         | 19. april     | [Sammendrag](12) | Omgivelsesdiagram (gjennomgang av 1b fra oblig 2b), eksamensoppgave (rekursjon, strømmer, destruktiv)
 | 13         | 26. april     | [Sammendrag](13) | Oblighjelp med 3a
-| 14         | 3. mai     | Sammendrag | Makroer? Hint til oblig?
-| 15         | 10. mai     | Sammendrag | Makroer? Hint til oblig?
+| 14         | 3. mai     | [Sammendrag](14) | Makroer
+| 15         | 10. mai     | Sammendrag | Oblig 3b-hjelp
 | 16         | 24. mai     | Sammendrag | Avslutning, boller, gamle eksamener
 
 

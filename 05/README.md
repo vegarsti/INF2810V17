@@ -44,7 +44,7 @@ som igjen blir
  1)
 ```
 
-###Trær
+### Trær
 
 - Et tre er en type graf: Noder forbundet med kanter
 - Den øverste noden kalles rot

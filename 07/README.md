@@ -137,7 +137,7 @@ Nå kan vi gjøre
 ```
 
 
-##Oppgaver
+## Oppgaver
 
 ### `make-accumulator` (3.1 i SICP)
 Lag en prosedyre `make-accumulator` som tar en startsum og skal deretter kunne kalles med navn og sum for å øke summen. Eksempel:

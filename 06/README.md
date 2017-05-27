@@ -98,7 +98,7 @@ En annen kul ting: Den innebygde prosedyren `list` har en utrolig kul og lett im
   (lambda x x))
 ```
 
-####Oppgave####
+### Oppgave
 Prøv å lag en funksjon `my-max`, som er en implementasjon av den innebygde `max`, som er en variadisk prosedyre! Da kan det også være verdt å se på den innebygde `max`, og om den for eksempel takler null argumenter. +, for eksempel, takler null argumenter: Det blir 0!
 
-###[Løsning](max.scm)
+### [Løsning](max.scm)

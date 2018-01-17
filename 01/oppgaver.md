@@ -16,20 +16,20 @@ Begreper fra forelesningen dere kan bruke:
 
 #### a)
 
-Hvordan evalueres det sammensatte uttrykket (+ 3 (- 9 5)), og hvilken verdi evaluerer det til?
+Hvordan evalueres det sammensatte uttrykket `(+ 3 (- 9 5))`, og hvilken verdi evaluerer det til?
 
 #### b)
 
 Generelt, hvordan evalueres sammensatte uttrykk i Scheme (som ikke er special forms)? 
 Begreper fra forelesningen dere kan bruke:
 
-Parentesbasert prefiksnotasjon
-Operator og operand
-Primitive / atomære uttrykk
+- Parentesbasert prefiksnotasjon
+- Operator og operand
+- Primitive / atomære uttrykk
 
 #### c)
 
-Hva evaluerer det siste uttrykket her til? (Uttrykket bruker 3 linjer.)
+Hva evaluerer det siste uttrykket her til?
 
 ```scheme
 (define foo 4)

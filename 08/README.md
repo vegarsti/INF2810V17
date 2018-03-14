@@ -6,9 +6,9 @@ Vi nevnte forrige gang at nå er ikke variabler lenger navn på verdier, men ste
 
 - **Omgivelse**: En sekvens av rammer.
 - **Ramme**: En tabell som binder variabelnavn til verdier.
-- Hver ramme har en peker til sin omsluttende omgivelse.
-- Den globale omgivelsen består av én enkelt ramme (med bindinger til alle de innebygde prosedyrene)
-Variabler har sin verdi relativ til en gitt omgivelse
+- Hver _ramme_ har en peker til sin omsluttende _omgivelse_.
+- Den globale _omgivelsen_ består av én enkelt _ramme _ (med bindinger til alle de innebygde prosedyrene)
+- Variabler har sin verdi relativ til en gitt omgivelse
 
 ### Regler vi bruker
 

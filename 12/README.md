@@ -1,6 +1,6 @@
 ## Time 12
 
-Vi gikk gjennom løsningsforslaget for oppgave 1b fra oblig 2b. Se [her](omgivelse.md) for en grundig gjennomgang med steg-for-steg-bilder.
+Vi gikk gjennom løsningsforslaget for oppgave 1b fra oblig 2b.
 
 Deretter så vi på noen oppgaver fra [en tidligere eksamen (2015)](http://www.uio.no/studier/emner/matnat/ifi/INF2810/v16/oppgaver/eksamen_inf2810_2015_bm.pdf), spesifikt 2: b), d), e) og f):
 

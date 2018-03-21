@@ -147,22 +147,3 @@ Nå kan vi også definere uendelige strømmer (!):
 nats                   ; (1 . #promise)
 (stream-ref nats 1000) ; 1000
 ```
-
-
-### Ekstraoppgave
-(Denne var siste oppgave på oblig 2b i fjor.)
-
-Lag en datastruktur som er en ring, som et lykkehjul. Den skal ha operasjoner `top`, `left-rotate!`, `right-rotate!`, `insert!` og `delete!`. Alle disse operasjonene skal returnere elementet som er øverst. Ellers skal de fungere som de "høres ut":
-
-```scheme
-(define ring (make-ring '(1 2 3 4)))
-(top ring)                ; 1
-(left-rotate! ring)       ; 4
-(insert! ring 5)          ; 5
-(right-rotate! ring)      ; 4
-(delete! ring)            ; 5
-```
-
-**OBS**: Pass på at den ikke destruerer `items` som blir sendt inn!
-
-#### [Løsningsforslag her!](ring.scm)
